@@ -45,8 +45,9 @@ So I tried using Fyne to add an optional GUI to it, and it worked great!
 You can see the tool at
 
 - https://rescribe.xyz/rescribe
-- `go get rescribe.xyz/bookpipeline`
 - `git clone https://rescribe.xyz/bookpipeline`
+
+For this talk the relevant parts are the `cmd/rescribe` directory, particularly `gui.go` and `makefile`.
 
 I am no Fyne expert, though!
 
