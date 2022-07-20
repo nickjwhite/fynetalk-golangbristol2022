@@ -213,7 +213,7 @@ To compile for other platforms is a bit tricky, because of the need to link to t
 
 Some helpful tips are here: https://developer.fyne.io/started/cross-compiling
 
-Linux cross-crompiling to Windows is easy. Install mingw (`apt install mingw-w64`), then cross compile and package up like this:
+Linux cross-compiling to Windows is easy. Install mingw (`apt install mingw-w64`), then cross compile and package up like this:
 
 ```
 CC="x86_64-w64-mingw32-gcc" CGO_ENABLED=1 GOOS=windows \
