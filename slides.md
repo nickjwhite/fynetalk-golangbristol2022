@@ -6,6 +6,8 @@ For golang Bristol++
 
 2022-07-20
 
+https://github.com/nickjwhite/fynetalk-golangbristol2022
+
 # Graphical User Interface Toolkit
 
 Fyne is a GUI toolkit. It provides functions and structures to help with drawing windows, popups, buttons, scrollbars, progress bars, colour pickers, etc.
@@ -133,7 +135,7 @@ In hello world we used w.SetContent(widget) to put one widget in a window.
 
 Containers are used to include multiple widgets, and layouts are used to determine how they're laid out.
 
-Containers are a simple interface that contains multiple canvases, like widgets or other containers.
+Containers are a simple structure that contains multiple canvases, like widgets or other containers.
 
 Layouts are structures that can be associated with containers that specify how to lay out the widgets, e.g. in rows, columns, a grid, etc.
 
@@ -160,7 +162,7 @@ Two options to use them:
 # Dialogue Box examples
 
 ```
-dialog.ShowError(fmt.Errorf("Oh no!", w)
+dialog.ShowError(fmt.Errorf("Oh no!"), w)
 
 dialog.ShowInformation("OCR Complete", "Oh yes!", w)
 
